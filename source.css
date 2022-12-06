@@ -1,0 +1,38 @@
+html{
+    margin: 0;
+    padding: 0;
+     position: relative;
+     display: block;
+     min-width: 960px;
+     min-height: 700px;
+}
+html,body,head,header{
+    background-size: 1920px,1080px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-image: url(fon.jpg);*/
+}
+ul{
+    color: black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.h-button {
+    text-decoration: none;
+    color: blueviolet;
+    display: inline-block;
+    position: relative;
+    padding: 15px 30px;
+    border: 1px solid;
+    border-image: linear-gradient(180deg, #ffffff);
+    border-image-slice: 1;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 1px;
+    transition: .8s cubic-bezier(.165, .84, .44, 1);
+  }
